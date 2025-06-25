@@ -1,0 +1,20 @@
+import 'package:flutter/material.dart';
+
+/// Placeholder for the Favorites Screen displaying favorite quotes.
+
+// PUBLIC_INTERFACE
+class FavoritesScreen extends StatelessWidget {
+  const FavoritesScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold(
+      appBar: AppBar(
+        title: Text("Favorites"),
+      ),
+      body: Center(
+        child: Text("Your favorite quotes will appear here."),
+      ),
+    );
+  }
+}
